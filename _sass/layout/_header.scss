@@ -1,4 +1,11 @@
 .header {
   display: flex;
   justify-content: space-between;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.header__title {
+  text-decoration: none;
+  text-transform: uppercase;
 }
