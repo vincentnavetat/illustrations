@@ -1,16 +1,27 @@
 <header class="header" role="banner">
   {%- assign default_paths = site.pages | map: "path" -%}
   {%- assign page_paths = site.header_pages | default: default_paths -%}
-  <a class="header__title" rel="author" href="{{ "/" | relative_url }}">{{ site.headline | escape }}</a>
+  <a class="header__link" rel="author" href="{{ "/" | relative_url }}">
+    <h1 class="header__title">
+      {{ site.headline | escape }}
+    </h1>
+  </a>
 
   {%- if page_paths -%}
     <nav class="header__nav">
-      {%- for path in page_paths -%}
-        {%- assign my_page = site.pages | where: "path", path | first -%}
-        {%- if my_page.title -%}
-          <a class="header__link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-        {%- endif -%}
-      {%- endfor -%}
+      <ul class="header__list">
+        <li class="header__list-item">
+          <a class="header__link" href="{{ "/" | relative_url }}">Work</a>
+        </li>
+        {%- for path in page_paths -%}
+          {%- assign my_page = site.pages | where: "path", path | first -%}
+          {%- if my_page.title -%}
+            <li class="header__list-item">
+              <a class="header__link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+            </li>
+          {%- endif -%}
+        {%- endfor -%}
+      </ul>
     </nav>
   {%- endif -%}
 </header>

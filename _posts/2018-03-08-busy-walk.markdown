@@ -1,0 +1,8 @@
+---
+layout: application
+title:  "Busy walk"
+date:   2018-04-27 12:49:27 +0100
+categories: watercolour illustration
+thumbnail: "/assets/img/busy-walk.jpg"
+---
+![illustration by Vincent Navetat]({{ "/assets/img/busy-walk.jpg" | absolute_url }})

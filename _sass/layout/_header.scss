@@ -1,11 +1,27 @@
 .header {
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  padding-top: 64px;
-  padding-bottom: 64px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.header__link {
+  text-decoration: none;
 }
 
 .header__title {
-  text-decoration: none;
-  text-transform: uppercase;
+  font-family: 'Waiting for the Sunrise', cursive;
+  text-transform: lowercase;
+}
+
+.header__list {
+  display: flex;
+  list-style-type: none;
+}
+
+.header__list-item {
+  + .header__list-item {
+    padding-left: 24px;
+  }
 }

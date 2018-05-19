@@ -1,0 +1,8 @@
+---
+layout: application
+title:  "Look out"
+date:   2018-05-19 12:49:27 +0100
+categories: watercolour illustration
+thumbnail: "/assets/img/look-out.jpg"
+---
+![illustration by Vincent Navetat]({{ "/assets/img/look-out.jpg" | absolute_url }})
