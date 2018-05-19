@@ -1,0 +1,15 @@
+.post-list {
+  display: grid;
+  grid-gap: 16px;
+
+  @include medium {
+    grid-template-columns: repeat(2, [col-start] 1fr);
+  }
+
+  @include large {
+    grid-template-columns: repeat(3, [col-start] 1fr);
+  }
+}
+
+.post-list__item {
+}
