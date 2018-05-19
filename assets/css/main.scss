@@ -3,6 +3,7 @@
 # only Main files contain this front matter, not partials.
 ---
 
+@import "abstract/variables";
 @import "abstract/mixins";
 
 @import "vendor/normalize";
