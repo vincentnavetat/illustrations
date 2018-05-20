@@ -3,6 +3,6 @@ layout: application
 title:  "Based on a true story"
 date:   2018-03-22 12:49:27 +0100
 categories: watercolour illustration
-thumbnail: "/assets/img/gymnast.jpg"
+thumbnail: "/assets/img/gymnast_s.jpg"
 ---
 ![illustration by Vincent Navetat]({{ "/assets/img/gymnast.jpg" | absolute_url }})

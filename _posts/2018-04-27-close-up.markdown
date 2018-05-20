@@ -3,6 +3,6 @@ layout: application
 title:  "Close-up"
 date:   2018-05-19 12:49:27 +0100
 categories: watercolour portrait
-thumbnail: "/assets/img/close-up.jpg"
+thumbnail: "/assets/img/close-up_s.jpg"
 ---
 ![illustration by Vincent Navetat]({{ "/assets/img/close-up.jpg" | absolute_url }})
