@@ -15,10 +15,22 @@ layout: application
         action="https://formspree.io/vincentnavetat@gmail.com"
         method="POST">
     <div class="contact-form__row">
-      <input class="input-text" type="text" name="name">
-      <textarea class="input-textarea" name="body">
-      </textarea>
-      <input class="input-text" type="email" name="_replyto">
+      <label>
+        Name
+        <input class="input-text" type="text" name="name">
+      </label>
+    </div>
+    <div class="contact-form__row">
+      <label>
+        Email
+        <input class="input-text" type="email" name="_replyto" required>
+      </label>
+    </div>
+    <div class="contact-form__row">
+      <label>
+        Message
+        <textarea class="input-textarea" name="body" required></textarea>
+      </label>
       <input class="button" type="submit" value="Send">
     <div>
   </form>
