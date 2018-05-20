@@ -1,0 +1,26 @@
+---
+layout: application
+---
+<article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+  <form class="contact-form"
+        action="https://formspree.io/vincentnavetat@gmail.com"
+        method="POST">
+    <div class="contact-form__row">
+      <input class="input-text" type="text" name="name">
+      <textarea class="input-textarea" name="body">
+      </textarea>
+      <input class="input-text" type="email" name="_replyto">
+      <input class="button" type="submit" value="Send">
+    <div>
+  </form>
+
+</article>
