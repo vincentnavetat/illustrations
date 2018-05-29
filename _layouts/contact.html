@@ -17,19 +17,28 @@ layout: application
     <div class="contact-form__row">
       <label>
         Name
-        <input class="input-text" type="text" name="name">
+        <div class="input-container">
+          <input class="input input-text" type="text" name="name">
+          <span class="input__line"></span>
+        </div>
       </label>
     </div>
     <div class="contact-form__row">
       <label>
         Email
-        <input class="input-text" type="email" name="_replyto" required>
+        <div class="input-container">
+          <input class="input input-text" type="email" name="_replyto" required>
+          <span class="input__line"></span>
+        </div>
       </label>
     </div>
     <div class="contact-form__row">
       <label>
         Message
-        <textarea class="input-textarea" name="body" required></textarea>
+        <div class="input-container">
+          <textarea class="input input-textarea" name="body" required></textarea>
+          <span class="input__line"></span>
+        </div>
       </label>
       <input class="button" type="submit" value="Send">
     <div>
