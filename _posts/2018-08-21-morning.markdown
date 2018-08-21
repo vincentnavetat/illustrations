@@ -1,0 +1,8 @@
+---
+layout: application
+title:  "Sometimes, you just don't want to do anything"
+date:   2018-08-21 12:49:27 +0100
+categories: watercolour illustration
+thumbnail: "/assets/img/morning_s.jpg"
+---
+![illustration by Vincent Navetat]({{ "/assets/img/morning.jpg" | absolute_url }})
