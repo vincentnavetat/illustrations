@@ -3,8 +3,8 @@ headline: Vince draws
 email: vincentnavetat@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Illustrator based in London, UK
-baseurl: "/illustrations" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://vincentnavetat.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: vincentnavetat
 
 # Build settings

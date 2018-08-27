@@ -1,0 +1,8 @@
+---
+layout: application
+title:  "Magic"
+date:   2018-05-30 12:49:27 +0100
+categories: watercolour illustration
+thumbnail: "/assets/img/magic_s.jpg"
+---
+![illustration by Vincent Navetat]({{ "/assets/img/magic.jpg" | absolute_url }})
