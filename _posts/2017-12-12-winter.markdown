@@ -1,5 +1,5 @@
 ---
-layout: application
+layout: post
 title:  "Winter"
 date:   2017-12-12 12:49:27 +0100
 categories: watercolour illustration

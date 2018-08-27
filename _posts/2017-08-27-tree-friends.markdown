@@ -1,5 +1,5 @@
 ---
-layout: application
+layout: post
 title:  "Tree friends"
 date:   2017-08-27 12:49:27 +0100
 categories: watercolour illustration

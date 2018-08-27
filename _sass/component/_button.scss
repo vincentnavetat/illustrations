@@ -1,0 +1,18 @@
+.button {
+  cursor: pointer;
+  text-align: center;
+  padding: 8px;
+  border: 0;
+  background-color: var(--gray-dark);
+  color: var(--white);
+  border-radius: var(--border-radius-small);
+  transition: opacity var(--time-fast);
+
+  &:hover {
+    opacity: var(--opacity-high);
+  }
+}
+
+.button--full-width {
+  width: 100%;
+}

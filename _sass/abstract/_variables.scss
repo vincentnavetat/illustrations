@@ -1,6 +1,18 @@
 :root {
   --black: #212224;
-  --grey-dark: #666b76;
+  --white: #ffffff;
+  --gray-light: #fafafa;
+  --gray: #cccccc;
+  --gray-dark: #666b76;
+
+  --border-radius-small: 3px;
 
   --font-size-small: 14px;
+  --font-size-base: 16px;
+
+  --opacity-high: 0.8;
+
+  --time-fast: 0.15s;
+  --time-medium: 0.3s;
+  --time-slow: 1s;
 }

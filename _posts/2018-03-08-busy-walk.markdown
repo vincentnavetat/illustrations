@@ -1,5 +1,5 @@
 ---
-layout: application
+layout: post
 title:  "Busy walk"
 date:   2018-03-08 12:49:27 +0100
 categories: watercolour illustration

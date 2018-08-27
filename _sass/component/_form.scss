@@ -1,32 +1,39 @@
+.form-label {
+
+}
+
+.form-label__text {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
 .input-container {
   position: relative;
   width: 100%;
-  border-bottom: 2px solid rgba(0,0,0,0.24);
-  margin-bottom: 27px;
+  border-bottom: 2px solid var(--gray);
 }
 
 .input {
   outline: none;
   border: none;
-  display: block;
+  background-color: var(--gray-light);
+  color: var(--gray-dark);
+  display: flex;
+  align-items: center;
+  height: 32px;
+  padding-left: 4px;
+  padding-right: 4px;
   width: 100%;
-  background: transparent;
-  font-size: 15px;
-  padding: 0 5px;
 
-
-  &:focus + .input__line::before {
+  &:focus + .input__underline::before {
     width: 100%;
   }
 }
 
-.input__line {
+.input__underline {
   position: absolute;
-  display: block;
-  width: 100%;
-  height: 100%;
-  top: 0;
   left: 0;
+  right: 0;
   pointer-events: none;
 
   &::before {
@@ -37,7 +44,11 @@
     left: 0;
     width: 0;
     height: 2px;
-    transition: all 0.4s;
-    background: #000;
+    transition: all var(--time-fast) ease-out;
+    background: var(--gray-dark);
   }
+}
+
+.input-textarea {
+  height: 180px;
 }
