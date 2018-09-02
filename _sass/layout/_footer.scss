@@ -1,7 +1,18 @@
 .footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
   color: var(--gray-dark);
   font-size: var(--font-size-small);
-  margin-top: 96px;
+  margin-top: 128px;
   margin-bottom: 16px;
   text-align: right;
+
+  &:before {
+    content: '';
+    display: flex;
+    width: 64px;
+    border-top: 1px solid var(--gray);
+    margin-bottom: 16px;
+  }
 }

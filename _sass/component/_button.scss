@@ -1,7 +1,7 @@
 .button {
   cursor: pointer;
   text-align: center;
-  padding: 8px;
+  padding: 12px 24px;
   border: 0;
   background-color: var(--gray-dark);
   color: var(--white);
@@ -11,8 +11,4 @@
   &:hover {
     opacity: var(--opacity-high);
   }
-}
-
-.button--full-width {
-  width: 100%;
 }

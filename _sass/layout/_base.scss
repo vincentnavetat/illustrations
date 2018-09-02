@@ -8,11 +8,16 @@
 a,
 a:visited {
   color: var(--black);
+  text-decoration: none;
 }
 
 img {
   height: auto;
   max-width: 100%;
+}
+
+.link--underlined {
+  border-bottom: 1px solid var(--black);
 }
 
 .site-container {

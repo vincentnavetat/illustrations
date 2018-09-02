@@ -1,10 +1,19 @@
-.form-label {
+.form__row {
+  display: flex;
+  flex-direction: column;
 
+  + .form__row {
+    margin-top: 24px;
+  }
+}
+
+.form__row--right-aligned {
+  align-items: flex-end;
 }
 
 .form-label__text {
   display: inline-block;
-  margin-bottom: 16px;
+  margin-bottom: 4px;
 }
 
 .input-container {
@@ -21,9 +30,15 @@
   display: flex;
   align-items: center;
   height: 32px;
-  padding-left: 4px;
+  padding-left: 8px;
   padding-right: 4px;
   width: 100%;
+  transition: background-color var(--time-medium);
+
+  &:hover,
+  &:focus {
+    background-color: var(--white);
+  }
 
   &:focus + .input__underline::before {
     width: 100%;
@@ -44,8 +59,8 @@
     left: 0;
     width: 0;
     height: 2px;
-    transition: all var(--time-fast) ease-out;
-    background: var(--gray-dark);
+    transition: all var(--time-fast);
+    background: var(--black);
   }
 }
 
