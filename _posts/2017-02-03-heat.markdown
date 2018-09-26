@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Heat"
+date:   2017-02-03 12:49:27 +0100
+categories: watercolour illustration
+thumbnail: "/assets/img/heat_s.jpg"
+---
+![illustration by Vincent Navetat]({{ "/assets/img/heat.jpg" | absolute_url }})

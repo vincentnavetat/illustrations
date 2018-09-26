@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Train"
+date:   2017-10-19 12:49:27 +0100
+categories: watercolour illustration
+thumbnail: "/assets/img/train_s.jpg"
+---
+![illustration by Vincent Navetat]({{ "/assets/img/train.jpg" | absolute_url }})

@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Frida"
+date:   2017-02-03 12:49:27 +0100
+categories: watercolour illustration
+thumbnail: "/assets/img/frida_s.jpg"
+---
+![illustration by Vincent Navetat]({{ "/assets/img/frida.jpg" | absolute_url }})
