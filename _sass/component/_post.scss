@@ -1,0 +1,21 @@
+.post__content {
+  a {
+    display: inline-flex;
+    flex-direction: column;
+
+    &:after {
+      content: '';
+      border-bottom: 1px solid var(--black);
+      margin-top: 0;
+      transition: transform .15s ease-out;
+    }
+
+    &:hover {
+      &:after {
+        content: '';
+        transform: translateY(4px);
+        border-bottom: 1px solid var(--black);
+      }
+    }
+  }
+}
