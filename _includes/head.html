@@ -3,11 +3,9 @@
     {%- include google_analytics.html -%}
   {%- endif -%}
 
-  <!-- Robots -->
   <meta name="robots" content="{{- page.robots | default: 'index, follow' -}}" />
   {%- unless page.canonical == false -%}<link rel="canonical" href="{{- page.url | absolute_url -}}" />{%- endunless -%}
 
-  <!-- Title, description, author -->
   {%- capture _page_title -%}
     {%- if page.title -%}{{- page.title | append: ' | ' -}}{%- endif -%}
     {{- site.title | default: "Untitled Website" -}}
@@ -20,7 +18,6 @@
   <meta name="description" content="{{- _page_description -}}" />
   <meta name="author" content="{{- site.author -}}" />
 
-  <!-- Open Graph -->
   <meta property="og:title" content="{{- _page_title -}}" />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="{{- site.avatar | absolute_url -}}" />
@@ -28,7 +25,6 @@
   <meta property="og:site_name" content="{{- site.title | escape -}}" />
   <meta property="og:description" content="{{- _page_description -}}" />
 
-  <!-- Styles -->
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Waiting+for+the+Sunrise" rel="stylesheet">
