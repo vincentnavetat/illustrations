@@ -7,10 +7,17 @@
 }
 
 .header__link {
-  text-decoration: none;
+  display: flex;
+  align-items: center;
+  transition: opacity var(--time-fast) ease-out;
+
+  &:hover {
+    opacity: var(--opacity-high);
+  }
 }
 
 .header__title {
+  display: contents;
   margin-top: 0;
   margin-bottom: 0;
 }
