@@ -1,5 +1,5 @@
 ---
-layout: application
+layout: post
 title:  "Pink Alley"
 date:   2018-09-11 12:49:27 +0100
 categories: watercolour illustration

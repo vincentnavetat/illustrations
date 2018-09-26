@@ -1,5 +1,5 @@
 ---
-layout: application
+layout: post
 title:  "Magic"
 date:   2018-05-30 12:49:27 +0100
 categories: watercolour illustration

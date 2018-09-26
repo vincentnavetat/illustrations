@@ -1,5 +1,5 @@
 ---
-layout: application
+layout: post
 title:  "Lavanderia"
 date:   2018-08-06 12:49:27 +0100
 categories: watercolour illustration
