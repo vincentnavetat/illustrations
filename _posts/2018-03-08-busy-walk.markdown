@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Busy walk"
+title:  "When you realise spring is around the corner (maybe)"
 date:   2018-03-08 12:49:27 +0100
 categories: watercolour illustration
 thumbnail: "/assets/img/busy-walk_s.jpg"

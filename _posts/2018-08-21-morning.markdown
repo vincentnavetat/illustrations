@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Sometimes, you just don't want to do anything"
+title:  "Sometimes, you just want to do nothing"
 date:   2018-08-21 12:49:27 +0100
 categories: watercolour illustration
 thumbnail: "/assets/img/morning_s.jpg"

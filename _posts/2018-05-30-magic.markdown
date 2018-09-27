@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Magic"
+title:  "People do have superpowers, they just wouldn't show you"
 date:   2018-05-30 12:49:27 +0100
 categories: watercolour illustration
 thumbnail: "/assets/img/magic_s.jpg"

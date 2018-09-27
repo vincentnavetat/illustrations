@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Nils"
+title:  "When you can't function without the right music playing"
 date:   2018-01-26 12:49:27 +0100
 categories: watercolour illustration
 thumbnail: "/assets/img/nils_s.jpg"

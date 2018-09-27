@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Close-up"
+title:  "They say \"to take a good picture, get closer\", so I thought I could try this out"
 date:   2018-04-27 12:49:27 +0100
 categories: watercolour portrait
 thumbnail: "/assets/img/close-up_s.jpg"

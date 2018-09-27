@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Laugh"
+title:  "When you just can't put your joy on hold anymore"
 date:   2018-07-08 12:49:27 +0100
 categories: watercolour illustration
 thumbnail: "/assets/img/laugh_s.jpg"
