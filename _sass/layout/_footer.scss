@@ -2,11 +2,31 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  text-align: right;
+  margin-top: 128px;
+}
+
+.social-media__link {
+  transition: opacity var(--time-medium) ease-in-out;
+  
+  &:hover {
+    opacity: var(--opacity-high);
+  }
+}
+
+.social-media__icon {
+  height: 24px;
+  width: 24px;
+}
+
+.footer__copy {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
   color: var(--gray-dark);
   font-size: var(--font-size-small);
-  margin-top: 128px;
+  margin-top: 16px;
   margin-bottom: 16px;
-  text-align: right;
 
   &:before {
     content: '';
