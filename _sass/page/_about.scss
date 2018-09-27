@@ -1,0 +1,21 @@
+:root {
+  --avatar-size: 96px;
+
+  @include medium {
+    --avatar-size: 120px;
+  }
+
+  @include large {
+    --avatar-size: 160px;
+  }
+}
+
+.about__avatar {
+  float: left;
+  height: var(--avatar-size);
+  width: var(--avatar-size);
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  margin-right: 16px;
+  margin-bottom: 8px;
+}
