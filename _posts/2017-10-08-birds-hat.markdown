@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Birds hat"
+title:  "Having a wild hair day"
 date:   2017-10-08 12:49:27 +0100
 categories: watercolour illustration
 thumbnail: "/assets/img/birds_hat_s.jpg"

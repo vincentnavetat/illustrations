@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Train"
+title:  "Being on a train while listening to music is one of my favourite things to do on Earth"
 date:   2017-10-19 12:49:27 +0100
 categories: watercolour illustration
 thumbnail: "/assets/img/train_s.jpg"

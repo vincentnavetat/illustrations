@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Surveilance"
+title:  "Surveillance"
 date:   2017-08-27 12:49:27 +0100
 categories: watercolour illustration
 thumbnail: "/assets/img/surveillance_s.jpg"

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Walk in Paris"
+title:  "Paris. It's pretty bad, yet it's pretty awesome"
 date:   2017-06-23 12:49:27 +0100
 categories: watercolour illustration
 thumbnail: "/assets/img/walk_paris_s.jpg"
