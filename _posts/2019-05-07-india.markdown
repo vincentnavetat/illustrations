@@ -3,6 +3,6 @@ layout: post
 title:  "Always choose the colourful path"
 date:   2019-05-07 12:49:27 +0100
 categories: watercolour illustration
-thumbnail: "/assets/img/india.jpg"
+thumbnail: "/assets/img/india_s.jpg"
 ---
 ![illustration by Vincent Navetat]({{ "/assets/img/india.jpg" | absolute_url }})

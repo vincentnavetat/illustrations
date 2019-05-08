@@ -3,7 +3,7 @@ layout: post
 title:  "Virginia"
 date:   2019-04-07 12:49:27 +0100
 categories: watercolour illustration
-thumbnail: "/assets/img/virginia_1.jpg"
+thumbnail: "/assets/img/virginia_s.jpg"
 ---
 ![illustration by Vincent Navetat]({{ "/assets/img/virginia_1.jpg" | absolute_url }})
 ![illustration by Vincent Navetat]({{ "/assets/img/virginia_2.jpg" | absolute_url }})

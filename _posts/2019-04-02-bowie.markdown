@@ -3,6 +3,6 @@ layout: post
 title:  "Feeling Bowie"
 date:   2019-04-02 12:49:27 +0100
 categories: watercolour illustration
-thumbnail: "/assets/img/bowie.jpg"
+thumbnail: "/assets/img/bowie_s.jpg"
 ---
 ![illustration by Vincent Navetat]({{ "/assets/img/bowie.jpg" | absolute_url }})

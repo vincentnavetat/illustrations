@@ -3,6 +3,6 @@ layout: post
 title:  "School"
 date:   2018-12-14 12:49:27 +0100
 categories: watercolour illustration
-thumbnail: "/assets/img/school.jpg"
+thumbnail: "/assets/img/school_s.jpg"
 ---
 ![illustration by Vincent Navetat]({{ "/assets/img/school.jpg" | absolute_url }})

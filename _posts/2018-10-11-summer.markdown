@@ -3,6 +3,6 @@ layout: post
 title:  "Summer"
 date:   2018-10-11 12:49:27 +0100
 categories: watercolour illustration
-thumbnail: "/assets/img/summer.jpg"
+thumbnail: "/assets/img/summer_s.jpg"
 ---
 ![illustration by Vincent Navetat]({{ "/assets/img/summer.jpg" | absolute_url }})

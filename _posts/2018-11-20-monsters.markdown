@@ -3,6 +3,6 @@ layout: post
 title:  "Monsters"
 date:   2018-11-20 12:49:27 +0100
 categories: watercolour illustration
-thumbnail: "/assets/img/monsters.jpg"
+thumbnail: "/assets/img/monsters_s.jpg"
 ---
 ![illustration by Vincent Navetat]({{ "/assets/img/monsters.jpg" | absolute_url }})
