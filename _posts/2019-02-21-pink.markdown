@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Pink"
+date:   2019-02-21 12:49:27 +0100
+categories: watercolour illustration
+thumbnail: "/assets/img/pink.jpg"
+---
+![illustration by Vincent Navetat]({{ "/assets/img/pink.jpg" | absolute_url }})

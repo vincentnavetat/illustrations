@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Hike"
+date:   2019-03-27 12:49:27 +0100
+categories: watercolour illustration
+thumbnail: "/assets/img/hike.jpg"
+---
+![illustration by Vincent Navetat]({{ "/assets/img/hike.jpg" | absolute_url }})

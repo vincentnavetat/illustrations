@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Workshop"
+date:   2019-02-25 12:49:27 +0100
+categories: watercolour illustration
+thumbnail: "/assets/img/workshop_1.jpg"
+---
+![illustration by Vincent Navetat]({{ "/assets/img/workshop_1.jpg" | absolute_url }})
+![illustration by Vincent Navetat]({{ "/assets/img/workshop_2.jpg" | absolute_url }})
+![illustration by Vincent Navetat]({{ "/assets/img/workshop_3.jpg" | absolute_url }})
