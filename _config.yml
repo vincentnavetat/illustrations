@@ -1,11 +1,10 @@
 title: Vincent Navetat - Illustrations
-headline: Vince draws
+headline: Vincent Navetat
 email: vincentnavetat@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Illustrator based in London, UK
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://vincentnavetat.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: vincentnavetat
 
 # Build settings
 markdown: kramdown
