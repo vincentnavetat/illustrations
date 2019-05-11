@@ -25,6 +25,17 @@
   margin-top: 32px;
 }
 
+.post__img-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.post__img + .post__img {
+  margin-top: 16px;
+}
+
 .post__footer {
   text-align: center;
 }

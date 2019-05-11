@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Cat T-shirt"
+date:   2019-04-24 12:49:27 +0100
+categories: watercolour illustration
+thumbnail: "/assets/img/tshirt_cat_s.jpg"
+---
+This is a T-shirt design I have done with ink. T-shirts are screen printed professionally on Earth Positive garments.
+
+T-shirts I sell are 100% Organic Products in accordance with the Global Organic Textile Standard. They are made ethically, respecting the Code of Conduct from the Fair Wear Foundation (FWF).
+
+{:.post__img-container}
+  ![illustration by Vincent Navetat]({{ "/assets/img/tshirt_cat_1.jpg" | absolute_url }}){:class="post__img"}
+  ![illustration by Vincent Navetat]({{ "/assets/img/tshirt_cat_2.jpg" | absolute_url }}){:class="post__img"}
+  ![illustration by Vincent Navetat]({{ "/assets/img/tshirt_cat_3.jpg" | absolute_url }}){:class="post__img"}
