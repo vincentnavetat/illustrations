@@ -7,4 +7,3 @@ thumbnail: "/assets/img/virginia_s.jpg"
 ---
 ![illustration by Vincent Navetat]({{ "/assets/img/virginia_1.jpg" | absolute_url }})
 ![illustration by Vincent Navetat]({{ "/assets/img/virginia_2.jpg" | absolute_url }})
-![illustration by Vincent Navetat]({{ "/assets/img/virginia_3.jpg" | absolute_url }})
