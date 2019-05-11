@@ -5,4 +5,5 @@ date:   2019-03-27 12:49:27 +0100
 categories: watercolour illustration
 thumbnail: "/assets/img/hike_s.jpg"
 ---
-![illustration by Vincent Navetat]({{ "/assets/img/hike.jpg" | absolute_url }})
+{:.post__img-container}
+  ![illustration by Vincent Navetat]({{ "/assets/img/hike.jpg" | absolute_url }}){:class="post__img"}
