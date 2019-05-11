@@ -4,6 +4,7 @@ title:  "Cat T-shirt"
 date:   2019-04-24 12:49:27 +0100
 categories: watercolour illustration
 thumbnail: "/assets/img/tshirt_cat_s.jpg"
+product: true
 ---
 This is a T-shirt design I have done with ink. T-shirts are screen printed professionally on Earth Positive garments.
 
