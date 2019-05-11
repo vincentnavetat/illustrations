@@ -14,12 +14,12 @@
   }
 }
 
-.post-link {
-  display: flex;
-  height: 240px;
+.post-list__item {
   position: relative;
   overflow: hidden;
+}
 
+.post-link {
   &:hover {
     &:before {
       opacity: .4;
@@ -48,12 +48,11 @@
   }
 
   &:after {
-    content: '→';
+    content: 'View more';
     position: absolute;
-    right: 12px;
-    bottom: 8px;
+    right: 16px;
+    bottom: 16px;
     z-index: 2;
-    font-size: 28px;
     color: var(--white);
     transition: opacity .3s ease-in;
     opacity: 0;
@@ -61,5 +60,7 @@
 }
 
 .post-link__img {
+  display: block;
   transition: transform 2s linear;
+  object-fit: cover;
 }
