@@ -14,5 +14,52 @@
   }
 }
 
-.post-list__item {
+.post-link {
+  display: flex;
+  height: 240px;
+  position: relative;
+  overflow: hidden;
+
+  &:hover {
+    &:before {
+      opacity: .4;
+    }
+
+    &:after {
+      opacity: 1;
+    }
+
+    .post-link__img {
+      transform: scale(1.05);
+    }
+  }
+
+  &:before {
+    background-color: var(--black);
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: opacity .3s ease-in;
+    opacity: 0;
+    z-index: 1;
+  }
+
+  &:after {
+    content: '→';
+    position: absolute;
+    right: 12px;
+    bottom: 8px;
+    z-index: 2;
+    font-size: 28px;
+    color: var(--white);
+    transition: opacity .3s ease-in;
+    opacity: 0;
+  }
+}
+
+.post-link__img {
+  transition: transform 2s linear;
 }

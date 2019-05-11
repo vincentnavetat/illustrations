@@ -15,7 +15,7 @@ layout: application
       <li class="post-list__item">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <a class="post-link" href="{{ post.url | relative_url }}">
-          <img src="{{ site.baseurl }}{{ post.thumbnail }}">
+          <img src="{{ site.baseurl }}{{ post.thumbnail }}" class="post-link__img">
         </a>
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
