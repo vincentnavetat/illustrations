@@ -5,4 +5,5 @@ date:   2018-08-15 12:49:27 +0100
 categories: watercolour illustration
 thumbnail: "/assets/img/run-plants_s.jpg"
 ---
-![illustration by Vincent Navetat]({{ "/assets/img/run-plants.jpg" | absolute_url }})
+{:.post__img-container}
+  ![illustration by Vincent Navetat]({{ "/assets/img/run-plants.jpg" | absolute_url }}){:class="post__img"}

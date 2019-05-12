@@ -5,4 +5,5 @@ date:   2018-05-19 12:49:27 +0100
 categories: watercolour illustration
 thumbnail: "/assets/img/shiba_s.jpg"
 ---
-![illustration by Vincent Navetat]({{ "/assets/img/shiba.jpg" | absolute_url }})
+{:.post__img-container}
+  ![illustration by Vincent Navetat]({{ "/assets/img/shiba.jpg" | absolute_url }}){:class="post__img"}
