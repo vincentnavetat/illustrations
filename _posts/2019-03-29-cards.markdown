@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Card format prints of some of my watercolour illustrations"
+date:   2019-03-29 12:49:27 +0100
+categories: watercolour illustration
+thumbnail: "/assets/img/cards_s.jpg"
+product: true
+---
+{:.post__img-container}
+  ![illustration by Vincent Navetat]({{ "/assets/img/cards_1.jpg" | absolute_url }}){:class="post__img"}
