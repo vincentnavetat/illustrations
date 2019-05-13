@@ -1,15 +1,22 @@
 .header {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   padding-top: 16px;
-  padding-bottom: 48px;
+  padding-bottom: 16px;
+
+  @include medium {
+    align-items: center;
+    padding-bottom: 48px;
+  }
 }
 
 .header__link {
   display: flex;
+  flex-shrink: 0;
   align-items: center;
   transition: opacity var(--time-fast) ease-out;
+  justify-content: flex-end;
 
   &:hover {
     opacity: var(--opacity-high);
@@ -24,11 +31,23 @@
 
 .header__list {
   display: flex;
+  flex-direction: column;
   list-style-type: none;
+  margin: 0;
+
+  @include medium {
+    margin: 16px 0;
+    flex-direction: row;
+  }
 }
 
 .header__list-item {
   + .header__list-item {
-    padding-left: 24px;
+    margin-top: 20px;
+
+    @include medium {
+      margin-top: 0;
+      margin-left: 24px;
+    }
   }
 }

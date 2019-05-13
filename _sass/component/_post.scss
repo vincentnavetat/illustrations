@@ -33,7 +33,9 @@
 }
 
 .post__img {
-  max-width: 560px;
+  @include large {
+    max-width: 560px;    
+  }
 }
 
 .post__img + .post__img {
