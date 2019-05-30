@@ -1,7 +1,7 @@
 ---
 layout: shop
-title: Shop
-permalink: /shop/
+title: Products
+permalink: /products/
 ---
 These are products I sell at events and fairs based on my artworks.
 
