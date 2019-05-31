@@ -3,8 +3,8 @@ layout: page
 title: About
 permalink: /about/
 ---
-I'm an illustrator and designer based in London, UK.
+Hey! I'm an illustrator and designer based in London, UK.
 
-I love making wordless stories, conveying a playful, positive and naive atmosphere. I work mainly with ink and watercolours but constantly try new mediums.
+I make little wordless stories, conveying a playful, naive and positive atmosphere. I work mainly with ink and watercolours but constantly try new mediums.
 
-If you have any question or enquiry, I'd love to [hear from you](mailto:vincentnavetat@gmail.com)!
+I sometimes do commissions for small businesses and individuals. If you have a fun project in mind, feel free to [reach me](mailto:vincentnavetat@gmail.com).
