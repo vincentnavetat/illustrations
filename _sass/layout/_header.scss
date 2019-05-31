@@ -11,6 +11,45 @@
   }
 }
 
+.header__mobile-activator {
+  display: none;
+}
+
+@include small-only {
+  .header__nav {
+    display: none;
+    position: absolute;
+    right: 16px;
+    z-index: 2;
+    background: var(--white);
+    padding-bottom: 16px;
+    padding-left: 16px;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .header__close-button {
+    padding-bottom: 16px;
+  }
+
+  .header__mobile-activator--open:checked {
+    ~ .header__nav {
+      display: flex;
+    }
+
+    ~ .header__open-button {
+      display: none;
+    }
+  }
+}
+
+.header__open-button,
+.header__close-button {
+  @include medium {
+    display: none;
+  }
+}
+
 .header__link {
   display: flex;
   flex-shrink: 0;
