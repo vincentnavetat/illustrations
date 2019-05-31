@@ -11,9 +11,13 @@
     <div class="header__nav-wrapper">
       <input type="radio" name="mobile-header-activator" id="mobile-header-activator--open" class="header__mobile-activator header__mobile-activator--open" />
       <input type="radio" name="mobile-header-activator" id="mobile-header-activator--close" class="header__mobile-activator header__mobile-activator--close" />
-      <label for="mobile-header-activator--open" class="header__open-button">Menu</label>
+      <label for="mobile-header-activator--open" class="header__open-button">
+        <img src={{ "/assets/img/menu.svg" | absolute_url }} alt="Open menu">
+      </label>
       <nav class="header__nav">
-        <label for="mobile-header-activator--close" class="header__close-button">x</label>
+        <label for="mobile-header-activator--close" class="header__close-button">
+          <img src={{ "/assets/img/x-circle.svg" | absolute_url }} alt="Close menu">
+        </label>
         <ul class="header__list">
           <li class="header__list-item">
             <a class="header__link" href="{{ "/" | relative_url }}">Work</a>
