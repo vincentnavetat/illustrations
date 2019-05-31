@@ -32,6 +32,10 @@
     padding-bottom: 16px;
   }
 
+  .header__open-button {
+    display: flex;
+  }
+
   .header__mobile-activator--open:checked {
     ~ .header__nav {
       display: flex;
