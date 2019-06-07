@@ -14,10 +14,10 @@ a:visited {
 img {
   height: auto;
   max-width: 100%;
-}
 
-[data-lazy-src] {
-  min-height: 200px;
+  &:not([src]):not([srcset]) {
+    visibility: hidden;
+  }
 }
 
 .link--underlined {

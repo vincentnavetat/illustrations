@@ -3,7 +3,7 @@
   {%- assign page_paths = site.header_pages | default: default_paths -%}
   <a class="header__link" rel="author" href="{{ "/" | relative_url }}">
     <h1 class="header__title">
-      <img src={{ "/assets/img/vincent-navetat-logo.svg" | absolute_url }} alt="Vincent Navetat, illustrator based in London">
+      <img data-lazy-src={{ "/assets/img/vincent-navetat-logo.svg" | absolute_url }} alt="Vincent Navetat, illustrator based in London">
     </h1>
   </a>
 
@@ -12,11 +12,11 @@
       <input type="radio" name="mobile-header-activator" id="mobile-header-activator--open" class="header__mobile-activator header__mobile-activator--open" />
       <input type="radio" name="mobile-header-activator" id="mobile-header-activator--close" class="header__mobile-activator header__mobile-activator--close" />
       <label for="mobile-header-activator--open" class="header__open-button">
-        <img src={{ "/assets/img/menu.svg" | absolute_url }} alt="Open menu">
+        <img data-lazy-src={{ "/assets/img/menu.svg" | absolute_url }} alt="Open menu">
       </label>
       <nav class="header__nav">
         <label for="mobile-header-activator--close" class="header__close-button">
-          <img src={{ "/assets/img/x-circle.svg" | absolute_url }} alt="Close menu">
+          <img data-lazy-src={{ "/assets/img/x-circle.svg" | absolute_url }} alt="Close menu">
         </label>
         <ul class="header__list">
           <li class="header__list-item">
