@@ -7,4 +7,4 @@ thumbnail: "/assets/img/print_pink_alley_s.jpg"
 product: true
 ---
 {:.post__img-container}
-  ![illustration by Vincent Navetat]({{ "/assets/img/print_pink_alley.jpg" | absolute_url }}){:class="post__img"}
+  ![illustration by Vincent Navetat](""){:class="post__img"}{:data-lazy-src="{{ "/assets/img/print_pink_alley.jpg" | absolute_url }}"}

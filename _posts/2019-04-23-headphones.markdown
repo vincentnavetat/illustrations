@@ -6,4 +6,4 @@ categories: watercolour illustration
 thumbnail: "/assets/img/headphones.jpg"
 ---
 {:.post__img-container}
-  ![illustration by Vincent Navetat]({{ "/assets/img/headphones.jpg" | absolute_url }}){:class="post__img"}
+  ![illustration by Vincent Navetat](""){:class="post__img"}{:data-lazy-src="{{ "/assets/img/headphones.jpg" | absolute_url }}"}

@@ -16,6 +16,6 @@ This is a T-shirt design I have done with ink. The design is screen printed prof
 [Purchase Woman T-shirt](https://www.etsy.com/uk/listing/693645942/doodling-illustration-women-t-shirt?ref=shop_home_active_2&frs=1) - [Purchase Man T-shirt](https://www.etsy.com/uk/listing/693645942/doodling-illustration-women-t-shirt?ref=shop_home_active_2&frs=1)
 
 {:.post__img-container}
-  ![illustration by Vincent Navetat]({{ "/assets/img/tshirt_cat_1.jpg" | absolute_url }}){:class="post__img"}
-  ![illustration by Vincent Navetat]({{ "/assets/img/tshirt_cat_2.jpg" | absolute_url }}){:class="post__img"}
-  ![illustration by Vincent Navetat]({{ "/assets/img/tshirt_cat_3.jpg" | absolute_url }}){:class="post__img"}
+  ![illustration by Vincent Navetat](""){:class="post__img"}{:data-lazy-src="{{ "/assets/img/tshirt_cat_1.jpg" | absolute_url }}"}
+  ![illustration by Vincent Navetat](""){:class="post__img"}{:data-lazy-src="{{ "/assets/img/tshirt_cat_2.jpg" | absolute_url }}"}
+  ![illustration by Vincent Navetat](""){:class="post__img"}{:data-lazy-src="{{ "/assets/img/tshirt_cat_3.jpg" | absolute_url }}"}

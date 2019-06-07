@@ -7,4 +7,4 @@ thumbnail: "/assets/img/tote_s.jpg"
 product: true
 ---
 {:.post__img-container}
-  ![illustration by Vincent Navetat]({{ "/assets/img/tote.jpg" | absolute_url }}){:class="post__img"}
+  ![illustration by Vincent Navetat](""){:class="post__img"}{:data-lazy-src="{{ "/assets/img/tote.jpg" | absolute_url }}"}

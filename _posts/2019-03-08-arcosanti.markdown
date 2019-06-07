@@ -6,4 +6,4 @@ categories: watercolour illustration
 thumbnail: "/assets/img/arcosanti_s.jpg"
 ---
 {:.post__img-container}
-  ![illustration by Vincent Navetat]({{ "/assets/img/arcosanti.jpg" | absolute_url }}){:class="post__img"}
+  ![illustration by Vincent Navetat](""){:class="post__img"}{:data-lazy-src="{{ "/assets/img/arcosanti.jpg" | absolute_url }}"}
