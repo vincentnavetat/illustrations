@@ -16,6 +16,10 @@ img {
   max-width: 100%;
 }
 
+[data-lazy-src] {
+  min-height: 200px;
+}
+
 .link--underlined {
   border-bottom: 1px solid var(--black);
 }
