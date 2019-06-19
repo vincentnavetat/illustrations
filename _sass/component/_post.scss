@@ -21,7 +21,6 @@
 }
 
 .post__title {
-  font-size: var(--font-size-large);
   margin-top: 32px;
 }
 
@@ -34,7 +33,7 @@
 
 .post__img {
   @include large {
-    max-width: 560px;    
+    max-width: 560px;
   }
 }
 

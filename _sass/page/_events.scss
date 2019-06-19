@@ -1,0 +1,17 @@
+.event__img {
+  float: left;
+  max-height: 200px;
+  margin-right: 16px;
+}
+
+.event__date {
+  font-size: var(--font-size-small);
+  color: var(--gray-dark);
+  margin-bottom: 16px;
+}
+
+.event__location {
+  font-weight: var(--font-weight-bold);
+  margin-bottom: 24px;
+}
+
