@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Finding love in a world of geometry"
+date:   2019-06-07 12:49:27 +0100
+categories: watercolour illustration
+thumbnail: "/assets/img/denmark.jpg"
+---
+{:.post__img-container}
+  ![illustration by Vincent Navetat](""){:class="post__img"}{:data-lazy-src="{{ "/assets/img/denmark.jpg" | absolute_url }}"}
