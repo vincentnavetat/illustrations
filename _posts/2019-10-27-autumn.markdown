@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "How isn't autumn your favourite season?"
+date:   2019-10-27 12:49:27 +0100
+categories: watercolour illustration
+thumbnail: "/assets/img/autumn.jpg"
+---
+{:.post__img-container}
+  ![illustration by Vincent Navetat](""){:class="post__img"}{:data-lazy-src="{{ "/assets/img/autumn.jpg" | absolute_url }}"}
